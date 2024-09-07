@@ -8,7 +8,7 @@ import Datos from './Datos'
 import MostrarNombre from './MostrarNombre'
 function App() {
   const [count, setCount] = useState(0);
-  const [nombre,setNombre] =useState("")
+  const [nombre,setNombre] =useState("");
   console.log("renderizado")
   return (
     <>
