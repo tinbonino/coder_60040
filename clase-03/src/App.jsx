@@ -22,8 +22,8 @@ function App() {
 
       <EjemploUseRef/> */}
       {/* <EjemploSimpleUseEffect/> */}
-      {/* <EjemploUseEffect/> */}
-      <EjemploMapYPromise/>
+      <EjemploUseEffect/>
+      {/* <EjemploMapYPromise/> */}
     </>
   )
 }
