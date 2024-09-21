@@ -14,6 +14,9 @@ function Layout() {
                 <li>
                     <Link to={"productos"}>Productos</Link>
                 </li>
+                <li>
+                    <Link to={"Eventos"}>Eventos</Link>
+                </li>
                 
             </ul>
         </nav>
