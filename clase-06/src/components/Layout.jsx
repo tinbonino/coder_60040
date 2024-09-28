@@ -1,8 +1,14 @@
-import React from 'react'
+import ThemeContext from "../context"
+import { useContext } from "react"
 
-function Layout() {
+function Layout({children}) {
+
+    const {tema} = useContext(ThemeContext)
+
   return (
-    <div>Layout</div>
+    <div style={{background:tema.background, color:tema.font}}>
+        {children}
+    </div>
   )
 }
 
